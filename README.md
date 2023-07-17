@@ -32,16 +32,25 @@ The main .js files
 ```
 ### The Controller .js file which handles all the different types request to the backend
 ```bash
-  cd ./Controller/InvoiceController.js
+  cd ./Controller/UserController.js
+  cd ./Controller/AdminController.js
 ```
 ### The .js file which handles all the logical part of a api request or the file which contains all the methods used by the controllers
 ```bash
-  cd ./Services/InvoiceService.js
+  cd ./Services/UserService.js
+  cd ./Services/AdminService.js
 ```
 
-### Invoice Model for the MongoDB Database
+### Models for the MongoDB Database
 ```bash
-  cd ./Model/Invoice.js
+  cd ./Model/Admin.js
+  cd ./Model/User.js
+```
+
+### JWT for the API REQUEST AUTHENTICATION
+```bash
+  cd ./JWT/decrypt.js
+  cd ./JWT/generate.js
 ```
 
 
